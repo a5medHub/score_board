@@ -15,9 +15,6 @@ body {
 
 .home-box,
 .guest-box {
-  color: red;
-  text-align: center;
-  font-size: medium;
   background-color: black;
   width: 120px;
   height: 155px;
@@ -25,6 +22,11 @@ body {
   margin: 0;
 }
 
-.home-box p {
+.home-box p,
+.guest-box p {
   color: red;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+  font-style: CusedTimerUlil;
 }
