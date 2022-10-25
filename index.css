@@ -10,4 +10,14 @@ body {
 
 .container h3 {
   color: white;
+  text-align: center;
+}
+
+.home-box,
+.guest-box {
+  background-color: black;
+  width: 120px;
+  height: 155px;
+  border-radius: 5px;
+  margin: 0;
 }
