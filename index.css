@@ -15,9 +15,16 @@ body {
 
 .home-box,
 .guest-box {
+  color: red;
+  text-align: center;
+  font-size: medium;
   background-color: black;
   width: 120px;
   height: 155px;
   border-radius: 5px;
   margin: 0;
+}
+
+.home-box p {
+  color: red;
 }
