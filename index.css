@@ -1,6 +1,8 @@
 body {
   margin: 0;
   background-color: #1b244a;
+  max-width: 575;
+  max-height: 385;
 }
 
 .container {
