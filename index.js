@@ -56,9 +56,10 @@ function guestScoreButtons3() {
 }
 
 function setWinnerColor() {
-  console.log(homescore.innerHTML);
-  console.log(homescore.innerText);
-  console.log(homescore.innerHTML.valueOf(homescore));
+  console.log(homescore.innerHTML + 5);
+  console.log(homescore.innerText + 5);
+  console.log(homescore.innerHTML.valueOf(homescore) + 5);
+  console.log(Number(homescore.innerHTML) + 5);
   if (homescore.innerHTML > guestscore.innerHTML) {
     document.getElementById("home").style.backgroundColor = "red";
     document.getElementById("guest").style.backgroundColor = "#1b244a";
@@ -72,6 +73,3 @@ function setWinnerColor() {
     document.getElementById("home").style.backgroundColor = "#1b244a";
   }
 }
-console.log(homescore.innerHTML);
-console.log(homescore.innerText);
-console.log(homescore.innerHTML.valueOf(homescore));
