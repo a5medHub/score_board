@@ -81,11 +81,11 @@ function setWinnerColor() {
 
 function diferentBetweenScores() {
   if (Number(homescore.innerHTML) > Number(guestscore.innerHTML)) {
-    diferscore.innerText = "Home is higher by:\n";
+    diferscore.innerText = "Home is higher by:\n\n";
     diferscore.innerText +=
       Number(homescore.innerHTML) - Number(guestscore.innerHTML);
   } else if (Number(homescore.innerHTML) < Number(guestscore.innerHTML)) {
-    diferscore.innerText = "Guest is higher by:\n";
+    diferscore.innerText = "Guest is higher by:\n\n";
     diferscore.innerText +=
       Number(guestscore.innerHTML) - Number(homescore.innerHTML);
   } else {

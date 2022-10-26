@@ -56,15 +56,19 @@ body {
   border-radius: 5px;
   margin: 0;
   text-align: center;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+.stats-box p {
+  padding-top: 30px;
 }
 #difer-score p {
   color: black;
   text-align: center;
   font-size: 50px;
-  padding-top: 50px;
   font-family: "Cursed Timer ULiL", sans-serif;
   margin-top: 0px;
 }
+
 .stats-buttons {
   text-align: center;
   padding-top: 10px;
