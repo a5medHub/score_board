@@ -55,6 +55,7 @@ body {
   height: 155px;
   border-radius: 5px;
   margin: 0;
+  text-align: center;
 }
 #difer-score p {
   color: black;
@@ -63,6 +64,10 @@ body {
   padding-top: 50px;
   font-family: "Cursed Timer ULiL", sans-serif;
   margin-top: 0px;
+}
+.stats-buttons {
+  text-align: center;
+  padding-top: 10px;
 }
 .stats-buttons #newGame {
   text-align: center;

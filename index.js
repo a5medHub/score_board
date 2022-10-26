@@ -101,3 +101,6 @@ function buttonReset() {
   setWinnerColor();
   diferentBetweenScores();
 }
+
+diferentBetweenScores();
+setWinnerColor();
