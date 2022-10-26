@@ -89,14 +89,14 @@ function buttonReset() {
 
 function diferentBetweenScores() {
   if (Number(homescore.innerHTML) > Number(guestscore.innerHTML)) {
-    diferscore.innerText = "the deference is:\n";
+    diferscore.innerText = "Home is higher by:\n";
     diferscore.innerText +=
       Number(homescore.innerHTML) - Number(guestscore.innerHTML);
   } else if (Number(homescore.innerHTML) < Number(guestscore.innerHTML)) {
-    diferscore.innerText = "the deference is:\n";
+    diferscore.innerText = "Guest is higher by:\n";
     diferscore.innerText +=
       Number(guestscore.innerHTML) - Number(homescore.innerHTML);
   } else {
-    diferscore.innerText = "the deference is:\n is 0";
+    diferscore.innerText = "Same score both";
   }
 }
