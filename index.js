@@ -79,14 +79,6 @@ function setWinnerColor() {
   }
 }
 
-function buttonReset() {
-  homescore.innerText = "0";
-  guestscore.innerText = "0";
-  (homeCount1 = 0), (homeCount2 = 0), (homeCount3 = 0);
-  (guestCount1 = 0), (guestCount2 = 0), (guestCount3 = 0);
-  setWinnerColor();
-}
-
 function diferentBetweenScores() {
   if (Number(homescore.innerHTML) > Number(guestscore.innerHTML)) {
     diferscore.innerText = "Home is higher by:\n";
@@ -99,4 +91,13 @@ function diferentBetweenScores() {
   } else {
     diferscore.innerText = "Same score both";
   }
+}
+
+function buttonReset() {
+  homescore.innerText = "0";
+  guestscore.innerText = "0";
+  (homeCount1 = 0), (homeCount2 = 0), (homeCount3 = 0);
+  (guestCount1 = 0), (guestCount2 = 0), (guestCount3 = 0);
+  setWinnerColor();
+  diferentBetweenScores();
 }
