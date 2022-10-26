@@ -1,5 +1,7 @@
 let homescore = document.getElementById("home-score");
 let guestscore = document.getElementById("guest-score");
+let home = document.getElementById("home");
+let guest = document.getElementById("guest");
 
 let homeCount1 = 0;
 let homeCount2 = 0;
@@ -45,4 +47,10 @@ function guestScoreButtons3() {
   guestCount3 += 3;
   guestscore.innerText = guestCount3;
   //console.log(guestscore);
+}
+
+if (homescore.innerText > guestscore.innerText) {
+  home.style.backgroundColor = red;
+} else {
+  guest.style.backgroundColor = red;
 }
