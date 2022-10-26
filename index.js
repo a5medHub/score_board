@@ -56,11 +56,14 @@ console.log(guestscore.innerText);
 function setWinnerColor() {
   if (homescore.innerText > guestscore.innerText) {
     document.getElementById("home").style.backgroundColor = "red";
-    document.getElementById("guest").style.backgroundColor = "Very dark blue";
+    document.getElementById("guest").style.backgroundColor = "#1b244a";
     //home.style.backgroundColor = "red";
-  } else {
+  } else if (homescore.innerText < guestscore.innerText) {
     document.getElementById("guest").style.backgroundColor = "red";
-    document.getElementById("home").style.backgroundColor = "Very dark blue";
+    document.getElementById("home").style.backgroundColor = "#1b244a";
     //guest.style.backgroundColor = "red";
+  } else {
+    document.getElementById("guest").style.backgroundColor = "#1b244a";
+    document.getElementById("home").style.backgroundColor = "#1b244a";
   }
 }
