@@ -32,14 +32,17 @@ function guestScoreButtons1() {
   guestCount1 = Number(guestscore.innerText);
   guestCount1 += 1;
   guestscore.innerText = guestCount1;
+  //console.log(guestscore);
 }
 function guestScoreButtons2() {
   guestCount2 = Number(guestscore.innerText);
   guestCount2 += 2;
   guestscore.innerText = guestCount2;
+  //console.log(guestscore);
 }
 function guestScoreButtons3() {
   guestCount3 = Number(guestscore.innerText);
   guestCount3 += 3;
   guestscore.innerText = guestCount3;
+  //console.log(guestscore);
 }
