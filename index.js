@@ -1,5 +1,5 @@
 let homescore = document.getElementById("home-score");
-let guestscore = document.getElementById("guest-box");
+let guestscore = document.getElementById("guest-score");
 
 let homeCount1 = 0;
 let homeCount2 = 0;
@@ -29,17 +29,17 @@ function homeScoreButtons3() {
 }
 
 function guestScoreButtons1() {
-  guestCount1 = Number(document.innerText);
+  guestCount1 = Number(guestscore.innerText);
   guestCount1 += 1;
   guestscore.innerText = guestCount1;
 }
 function guestScoreButtons2() {
-  guestCount2 = Number(document.innerText);
+  guestCount2 = Number(guestscore.innerText);
   guestCount2 += 2;
   guestscore.innerText = guestCount2;
 }
 function guestScoreButtons3() {
-  guestCount3 = Number(document.innerText);
+  guestCount3 = Number(guestscore.innerText);
   guestCount3 += 3;
   guestscore.innerText = guestCount3;
 }
