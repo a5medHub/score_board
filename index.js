@@ -17,6 +17,7 @@ function homeScoreButtons1() {
   homeCount1 += 1;
   homescore.innerText = homeCount1;
   setWinnerColor();
+  diferentBetweenScores();
   //console.log(homescore);
 }
 function homeScoreButtons2() {
@@ -24,6 +25,7 @@ function homeScoreButtons2() {
   homeCount2 += 2;
   homescore.innerText = homeCount2;
   setWinnerColor();
+  diferentBetweenScores();
   //console.log(homescore);
 }
 function homeScoreButtons3() {
@@ -31,6 +33,7 @@ function homeScoreButtons3() {
   homeCount3 += 3;
   homescore.innerText = homeCount3;
   setWinnerColor();
+  diferentBetweenScores();
   //console.log(homescore);
 }
 
@@ -39,6 +42,7 @@ function guestScoreButtons1() {
   guestCount1 += 1;
   guestscore.innerText = guestCount1;
   setWinnerColor();
+  diferentBetweenScores();
   //console.log(guestscore);
 }
 function guestScoreButtons2() {
@@ -46,6 +50,7 @@ function guestScoreButtons2() {
   guestCount2 += 2;
   guestscore.innerText = guestCount2;
   setWinnerColor();
+  diferentBetweenScores();
   //console.log(guestscore);
 }
 function guestScoreButtons3() {
@@ -53,6 +58,7 @@ function guestScoreButtons3() {
   guestCount3 += 3;
   guestscore.innerText = guestCount3;
   setWinnerColor();
+  diferentBetweenScores();
   //console.log(guestscore);
 }
 
