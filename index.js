@@ -15,6 +15,7 @@ function homeScoreButtons1() {
   homeCount1 = Number(homescore.innerText);
   homeCount1 += 1;
   homescore.innerText = homeCount1;
+  setWinnerColor();
   //console.log(homescore);
 }
 function homeScoreButtons2() {
@@ -34,6 +35,7 @@ function guestScoreButtons1() {
   guestCount1 = Number(guestscore.innerText);
   guestCount1 += 1;
   guestscore.innerText = guestCount1;
+  setWinnerColor();
   //console.log(guestscore);
 }
 function guestScoreButtons2() {
@@ -51,11 +53,12 @@ function guestScoreButtons3() {
 
 console.log(homescore.innerText);
 console.log(guestscore.innerText);
-
-if (homescore.innerText > guestscore.innerText) {
-  document.getElementById("home").style.backgroundColor = "red";
-  //home.style.backgroundColor = "red";
-} else {
-  document.getElementById("guest").style.backgroundColor = "red";
-  //guest.style.backgroundColor = "red";
+function setWinnerColor() {
+  if (homescore.innerText > guestscore.innerText) {
+    document.getElementById("home").style.backgroundColor = "red";
+    //home.style.backgroundColor = "red";
+  } else {
+    document.getElementById("guest").style.backgroundColor = "red";
+    //guest.style.backgroundColor = "red";
+  }
 }
