@@ -51,10 +51,11 @@ function guestScoreButtons3() {
 
 console.log(homescore.innerText);
 console.log(guestscore.innerText);
-/*
+
 if (homescore.innerText > guestscore.innerText) {
-  home.style.backgroundColor = red;
+  document.getElementById("home").style.backgroundColor = "red";
+  //home.style.backgroundColor = "red";
 } else {
-  guest.style.backgroundColor = red;
+  document.getElementById("guest").style.backgroundColor = "red";
+  //guest.style.backgroundColor = "red";
 }
-*/
