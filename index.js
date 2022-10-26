@@ -69,3 +69,6 @@ function setWinnerColor() {
     document.getElementById("home").style.backgroundColor = "#1b244a";
   }
 }
+console.log(homescore.innerHTML);
+console.log(homescore.innerText);
+console.log(homescore.innerHTML.valueOf);
