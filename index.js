@@ -56,9 +56,11 @@ console.log(guestscore.innerText);
 function setWinnerColor() {
   if (homescore.innerText > guestscore.innerText) {
     document.getElementById("home").style.backgroundColor = "red";
+    document.getElementById("guest").style.backgroundColor = "Very dark blue";
     //home.style.backgroundColor = "red";
   } else {
     document.getElementById("guest").style.backgroundColor = "red";
+    document.getElementById("home").style.backgroundColor = "Very dark blue";
     //guest.style.backgroundColor = "red";
   }
 }
