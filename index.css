@@ -31,6 +31,7 @@ body {
   font-size: 50px;
   padding-top: 50px;
   font-family: "Cursed Timer ULiL", sans-serif;
+  margin-top: 0px;
 }
 .score-buttons {
   padding-top: 10px;
@@ -48,3 +49,5 @@ body {
 #buttonscore:hover {
   background-color: #f94f6d;
 }
+#home {
+  background-color: #f94f6d;

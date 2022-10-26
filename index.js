@@ -49,8 +49,12 @@ function guestScoreButtons3() {
   //console.log(guestscore);
 }
 
+console.log(homescore.innerText);
+console.log(guestscore.innerText);
+/*
 if (homescore.innerText > guestscore.innerText) {
   home.style.backgroundColor = red;
 } else {
   guest.style.backgroundColor = red;
 }
+*/
