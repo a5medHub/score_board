@@ -22,12 +22,14 @@ function homeScoreButtons2() {
   homeCount2 = Number(homescore.innerText);
   homeCount2 += 2;
   homescore.innerText = homeCount2;
+  setWinnerColor();
   //console.log(homescore);
 }
 function homeScoreButtons3() {
   homeCount3 = Number(homescore.innerText);
   homeCount3 += 3;
   homescore.innerText = homeCount3;
+  setWinnerColor();
   //console.log(homescore);
 }
 
@@ -42,17 +44,17 @@ function guestScoreButtons2() {
   guestCount2 = Number(guestscore.innerText);
   guestCount2 += 2;
   guestscore.innerText = guestCount2;
+  setWinnerColor();
   //console.log(guestscore);
 }
 function guestScoreButtons3() {
   guestCount3 = Number(guestscore.innerText);
   guestCount3 += 3;
   guestscore.innerText = guestCount3;
+  setWinnerColor();
   //console.log(guestscore);
 }
 
-console.log(homescore.innerText);
-console.log(guestscore.innerText);
 function setWinnerColor() {
   if (homescore.innerText > guestscore.innerText) {
     document.getElementById("home").style.backgroundColor = "red";
