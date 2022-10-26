@@ -56,6 +56,9 @@ function guestScoreButtons3() {
 }
 
 function setWinnerColor() {
+  console.log(homescore.innerHTML);
+  console.log(homescore.innerText);
+  console.log(homescore.innerHTML.valueOf(homescore));
   if (homescore.innerHTML > guestscore.innerHTML) {
     document.getElementById("home").style.backgroundColor = "red";
     document.getElementById("guest").style.backgroundColor = "#1b244a";
@@ -71,4 +74,4 @@ function setWinnerColor() {
 }
 console.log(homescore.innerHTML);
 console.log(homescore.innerText);
-console.log(homescore.innerHTML.valueOf);
+console.log(homescore.innerHTML.valueOf(homescore));
