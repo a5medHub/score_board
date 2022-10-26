@@ -33,3 +33,13 @@ function guestScoreButtons1() {
   guestCount1 += 1;
   guestscore.innerText = guestCount1;
 }
+function guestScoreButtons2() {
+  guestCount2 = Number(document.innerText);
+  guestCount2 += 2;
+  guestscore.innerText = guestCount2;
+}
+function guestScoreButtons3() {
+  guestCount3 = Number(document.innerText);
+  guestCount3 += 3;
+  guestscore.innerText = guestCount3;
+}
