@@ -72,7 +72,7 @@ function setWinnerColor() {
   }
 }
 function buttonReset() {
-  homeCount1, homeCount2, (homeCount3 = 0);
+  (homeCount1 = 0), (homeCount2 = 0), (homeCount3 = 0);
 
   guestCount1 = 0;
   guestCount2 = 0;
