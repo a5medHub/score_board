@@ -89,16 +89,14 @@ function buttonReset() {
 
 function diferentBetweenScores() {
   if (Number(homescore.innerHTML) > Number(guestscore.innerHTML)) {
-    diferscore.innerText =
-      "the deference is:\n" +
-      Number(homescore.innerHTML) -
-      Number(guestscore.innerHTML);
+    diferscore.innerText = "the deference is:\n";
+    diferscore.innerText +=
+      Number(homescore.innerHTML) - Number(guestscore.innerHTML);
   } else if (Number(homescore.innerHTML) < Number(guestscore.innerHTML)) {
-    diferscore.innerText =
-      "the deference is:\n" +
-      Number(guestscore.innerHTML) -
-      Number(homescore.innerHTML);
+    diferscore.innerText = "the deference is:\n";
+    diferscore.innerText +=
+      Number(guestscore.innerHTML) - Number(homescore.innerHTML);
   } else {
-    diferscore.innerText = "the deference is:\n" + "0";
+    diferscore.innerText = "the deference is:\n is 0";
   }
 }
