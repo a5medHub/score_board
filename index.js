@@ -71,3 +71,10 @@ function setWinnerColor() {
     document.getElementById("home").style.backgroundColor = "#1b244a";
   }
 }
+function buttonReset() {
+  homeCount1, homeCount2, (homeCount3 = 0);
+
+  guestCount1 = 0;
+  guestCount2 = 0;
+  guestCount3 = 0;
+}
