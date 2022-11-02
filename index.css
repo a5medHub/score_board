@@ -87,4 +87,5 @@ body {
   color: black;
 }
 #newGame:after {
+  background-color: blue;
 }
