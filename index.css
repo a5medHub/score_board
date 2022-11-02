@@ -90,3 +90,6 @@ body {
   font-variant-caps: petite-caps;
   color: #f94f6d;
 }
+#newGame::shadow {
+  color: aqua;
+}
