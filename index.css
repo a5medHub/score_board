@@ -86,6 +86,6 @@ body {
   background-color: white;
   color: black;
 }
-#newGame::after {
-  background-color: blue;
+#newGame::first-letter {
+  color: #f94f6d;
 }
