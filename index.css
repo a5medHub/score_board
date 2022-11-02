@@ -87,5 +87,6 @@ body {
   color: black;
 }
 #newGame::first-letter {
+  font-variant-caps: petite-caps;
   color: #f94f6d;
 }
