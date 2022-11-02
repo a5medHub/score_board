@@ -82,7 +82,7 @@ body {
   background-color: #1b244a;
   font-family: "Cursed Timer ULiL", sans-serif;
 }
-.#newGame:hover {
+#newGame:hover {
   background-color: white;
   color: black;
 }
