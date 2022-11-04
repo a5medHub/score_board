@@ -16,7 +16,6 @@ function homeScoreButtons1() {
   homeCount1 = Number(homescore.innerText);
   homeCount1 += 1;
   homescore.innerText = homeCount1;
-  homescore = localStorage.setItem();
   setWinnerColor();
   diferentBetweenScores();
   //console.log(homescore);
