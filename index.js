@@ -15,6 +15,8 @@ let guestCount3 = 0;
 function homeScoreButtons1() {
   homeCount1 = Number(homescore.innerText);
   homeCount1 += 1;
+  homescore.innerText = homeCount1;
+
   setWinnerColor();
   diferentBetweenScores();
   //console.log(homescore);
