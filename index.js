@@ -1,4 +1,4 @@
-let homescore = document.getElementById("home-score");
+const homescore = document.getElementById("home-score");
 let guestscore = document.getElementById("guest-score");
 let home = document.getElementById("home");
 let guest = document.getElementById("guest");
