@@ -1,6 +1,6 @@
 const homescore = document.getElementById("home-score");
 const guestscore = document.getElementById("guest-score");
-let home = document.getElementById("home");
+const home = document.getElementById("home");
 let guest = document.getElementById("guest");
 let diferscore = document.getElementById("difer-score");
 
