@@ -2,7 +2,7 @@ const homescore = document.getElementById("home-score");
 const guestscore = document.getElementById("guest-score");
 const home = document.getElementById("home");
 const guest = document.getElementById("guest");
-let diferscore = document.getElementById("difer-score");
+const diferscore = document.getElementById("difer-score");
 
 let homeCount1 = 0;
 let homeCount2 = 0;
